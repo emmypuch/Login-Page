@@ -292,6 +292,10 @@ button:hover {
     width: 250px;
     font-size: 12px;
     margin-bottom: 30px;
+    background-color: transparent;
+    border-bottom: 2px solid #eef2f7;
+    border-top: none;
+    border-left: none;
   }
 
   .flex-wrapper .flex-form label {
