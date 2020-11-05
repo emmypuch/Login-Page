@@ -269,11 +269,16 @@ button:hover {
 /*responsiveness*/
 
 @media (max-width: 700px) {
+  #flex-container {
+    padding: 0;
+    flex-basis: 100%;
+  }
+
   .flex-wrapper {
     flex-direction: column;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .flex-wrapper .flex-left {
@@ -339,3 +344,11 @@ button:hover {
     font-family: monospace;
   }
 }
+
+/* @media (max-width: 425px) {
+  .flex-left .flex-left-title h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+  }
+} */
