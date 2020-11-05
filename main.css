@@ -17,8 +17,7 @@ body {
 }
 
 #flex-container {
-  padding: 0;
-  flex-basis: 100%;
+  padding: 0 20px;
 }
 
 .flex-wrapper {
@@ -270,10 +269,10 @@ button:hover {
 /*responsiveness*/
 
 @media (max-width: 700px) {
-  /* #flex-container {
+  #flex-container {
     padding: 0;
     flex-basis: 100%;
-  } */
+  }
 
   .flex-wrapper {
     flex-direction: column;
@@ -345,11 +344,3 @@ button:hover {
     font-family: monospace;
   }
 }
-
-/* @media (max-width: 425px) {
-  .flex-left .flex-left-title h2 {
-    font-size: 20px;
-    text-align: center;
-    font-family: monospace;
-  }
-} */
